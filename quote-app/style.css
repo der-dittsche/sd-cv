@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(176, 196, 235);
+  padding: 4em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+p {
+  margin: 0.5em;
+  font-size: 1.5em;
+}
+
+#quote-author {
+  padding-left: 1em;
+}
+#quote-author::before {
+  content: ">> ";
+}
+
+.quote-btn {
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  font-size: 2.5em;
+
+  border-radius: 0.1em;
+  padding: 0.3em;
+}
+
+.app {
+  max-width: 50%;
+  margin: auto;
+  border: 5px solid black;
+}
